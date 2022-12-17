@@ -1,0 +1,10 @@
+{
+  "extends": "@schoero/ts-config",
+  "compilerOptions": {
+    "outDir": "lib",
+    "skipLibCheck": true
+  },
+  "include": [
+    "src"
+  ]
+}
