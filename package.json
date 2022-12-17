@@ -1,7 +1,7 @@
 {
   "version": "0.0.1",
   "type": "module",
-  "name": "vite-config",
+  "name": "@schoero/vite-config",
   "description": "",
   "license": "MIT",
   "author": "Roger Schönbächler",
