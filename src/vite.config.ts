@@ -1,13 +1,13 @@
 import { resolve } from "node:path/posix";
 
 import tsconfigPaths from "vite-tsconfig-paths";
-import { UserConfigExport } from "vitest/config";
+import { UserConfig } from "vitest/config";
 import GithubActionsReporter from "vitest-github-actions-reporter";
 
 
 export { defineConfig } from "vitest/config";
 
-export const config: UserConfigExport = {
+export const config: UserConfig = {
   plugins: [
     tsconfigPaths()
   ],
