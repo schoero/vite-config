@@ -1,3 +1,3 @@
-declare const _default: import("vitest/dist/config.js").UserConfigExport;
-export default _default;
+export { defineConfig } from "vitest/config";
+export declare const config: import("vitest/dist/config.js").UserConfigExport;
 //# sourceMappingURL=vite.config.d.ts.map
