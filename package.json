@@ -13,12 +13,12 @@
   "bugs": {
     "url": "https://github.com/schoero/vite-config/issues"
   },
-  "main": "src/vite.config.js",
+  "main": "lib/vite.config.js",
   "scripts": {
     "build": "tsc"
   },
   "files": [
-    "src"
+    "lib"
   ],
   "peerDependencies": {
     "vite-tsconfig-paths": "^4.0.3",
@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@schoero/eslint-config": "^1.29.0",
+    "@schoero/ts-config": "^0.3.2",
     "@types/node": "^18.11.16"
   },
   "keywords": []
