@@ -1,13 +1,13 @@
 import { resolve } from "node:path/posix";
 
 import tsconfigPaths from "vite-tsconfig-paths";
-import { defineConfig } from "vitest/config";
+import { UserConfigExport } from "vitest/config";
 import GithubActionsReporter from "vitest-github-actions-reporter";
 
 
 export { defineConfig } from "vitest/config";
 
-export const config = defineConfig({
+export const config: UserConfigExport = {
   plugins: [
     tsconfigPaths()
   ],
@@ -20,4 +20,4 @@ export const config = defineConfig({
         ? testPath.replace("/tests/", "/tests/__snapshots__/").replace(/\.ts$/, snapExtension)
         : testPath.replace(/\.ts$/, snapExtension)
   }
-});
+};
