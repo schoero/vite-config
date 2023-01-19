@@ -1,8 +1,9 @@
 import { resolve } from "node:path/posix";
 
 import tsconfigPaths from "vite-tsconfig-paths";
-import { UserConfig } from "vitest/config";
 import GithubActionsReporter from "vitest-github-actions-reporter";
+
+import type { UserConfig } from "vitest/config";
 
 
 export { defineConfig } from "vitest/config";
