@@ -21,8 +21,8 @@
     "lib"
   ],
   "peerDependencies": {
-    "vite-tsconfig-paths": "^4.0.3",
-    "vitest": "^0.27.2",
+    "vite-tsconfig-paths": "^4.0.5",
+    "vitest": "^0.27.3",
     "vitest-github-actions-reporter": "^0.9.0"
   },
   "devDependencies": {
