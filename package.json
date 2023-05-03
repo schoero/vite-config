@@ -22,14 +22,14 @@
   ],
   "peerDependencies": {
     "vite-tsconfig-paths": "^4.2.0",
-    "vitest": "^0.30.1",
+    "vitest": "^0.31.0",
     "vitest-github-actions-reporter": "^0.10.0"
   },
   "devDependencies": {
     "@schoero/cspell-config": "^1.6.14",
-    "@schoero/eslint-config": "^1.38.1",
+    "@schoero/eslint-config": "^1.38.2",
     "@schoero/ts-config": "^0.3.2",
-    "@types/node": "^18.15.12"
+    "@types/node": "^18.16.3"
   },
   "keywords": []
 }
