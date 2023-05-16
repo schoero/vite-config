@@ -15,7 +15,8 @@
   },
   "main": "lib/vite.config.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepublish": "npm run build"
   },
   "files": [
     "lib"
