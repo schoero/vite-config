@@ -3,12 +3,12 @@ import { resolve } from "node:path/posix";
 import tsconfigPaths from "vite-tsconfig-paths";
 import GithubActionsReporter from "vitest-github-actions-reporter";
 
-import type { UserConfig } from "vitest/config";
-
 
 export { defineConfig } from "vitest/config";
 
-export const config: UserConfig = {
+
+/** @type {import('vitest/config').UserConfig} */
+export const config = {
   plugins: [
     tsconfigPaths()
   ],
@@ -18,7 +18,7 @@ export const config: UserConfig = {
       ? ["verbose", new GithubActionsReporter()]
       : "default",
     resolveSnapshotPath: (testPath, snapExtension) =>
-      resolve(testPath).includes(`/tests/`)
+      resolve(testPath).includes("/tests/")
         ? testPath.replace("/tests/", "/tests/__snapshots__/").replace(/\.ts$/, snapExtension)
         : testPath.replace(/\.ts$/, snapExtension)
   }
