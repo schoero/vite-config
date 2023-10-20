@@ -23,9 +23,9 @@
     "vitest-github-actions-reporter": "^0.10.0"
   },
   "devDependencies": {
-    "@schoero/cspell-config": "^1.6.16",
-    "@schoero/eslint-config": "^1.41.18",
-    "@types/node": "^20.7.1"
+    "@schoero/cspell-config": "^1.8.2",
+    "@schoero/eslint-config": "^1.41.20",
+    "@types/node": "^20.8.7"
   },
   "keywords": []
 }
